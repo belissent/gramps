@@ -3,7 +3,7 @@
 "http://gramps-project.org/xml/1.7.1/grampsxml.dtd">
 <database xmlns="http://gramps-project.org/xml/1.7.1/">
   <header>
-    <created date="2016-08-31" version="5.0.0"/>
+    <created date="2016-09-05" version="5.0.0-alpha1"/>
     <researcher>
       <resname>Alex Roitman,,,</resname>
     </researcher>
@@ -65951,17 +65951,17 @@ page 26  Repository:Address</text>
     <note handle="_d0436bcc69d6bba278bff5bc7db" change="1431184300" id="_footer1" type="General">
       <text>Footer: exported by  __GRAMPS_HOMEPAGE__ on __EXPORT_DATE__</text>
     </note>
-    <note handle="_d0436be64ac277b615b79b34e72" change="1431211661" id="_custom1" type="General">
+    <note handle="_d0436be64ac277b615b79b34e72" change="1473104826" id="_custom1" type="General">
       <text>Export date: __EXPORT_DATE__
 GRAMPS homepage: __GRAMPS_HOMEPAGE__
 GRAMPS version: __GRAMPS_VERSION__
 
-Number of families: __NB_FAMILIES__
-Number of persons: __NB_INDIVIDUALS__
-Number of media objects: __NB_MEDIA__
-Number of sources: __NB_SOURCES__
-Number of repositories: __NB_REPOSITORIES__
-Number of places: __NB_PLACES__
+Number of families: __NB_FAMILIES__ / __NB_TOTAL_FAMILIES__
+Number of persons: __NB_INDIVIDUALS__ / __NB_TOTAL_INDIVIDUALS__
+Number of media objects: __NB_MEDIA__ / __NB_TOTAL_MEDIA__
+Number of sources: __NB_SOURCES__ / __NB_TOTAL_SOURCES__
+Number of repositories: __NB_REPOSITORIES__ / __NB_TOTAL_REPOSITORIES__
+Number of places: __NB_PLACES__ / __NB_TOTAL_PLACES__
 
 Search form:
 __SEARCH_FORM__
@@ -65986,36 +65986,38 @@ Image &quot;AntoineClaudet&quot; with link:
 __MEDIA_O0011__
 
 Wrong media ID:
-__MEDIA_wrong id__</text>
-      <style name="link" value="relative://relative.archive.zip">
-        <range start="663" end="686"/>
-      </style>
-      <style name="link" value="gramps://Media/handle/238CGQ939HG18SS5MG">
-        <range start="952" end="967"/>
-      </style>
-      <style name="link" value="gramps://Media/handle/238CGQ939HG18SS5MG">
-        <range start="520" end="535"/>
-      </style>
-      <style name="link" value="gramps://Family/handle/48TJQCGNNIR5SJRCAK">
-        <range start="413" end="429"/>
-      </style>
-      <style name="link" value="gramps://Person/handle/GNUJQCL9MD64AM56OH">
-        <range start="355" end="371"/>
-      </style>
-      <style name="link" value="http://blog.codinghorror.com/">
-        <range start="621" end="639"/>
-      </style>
-      <style name="link" value="gramps://Source/handle/VUBKMQTA2XZG1V6QP8">
-        <range start="483" end="499"/>
-      </style>
+__MEDIA_wrong id__
+
+Center person: __HOME_PERSON__</text>
       <style name="link" value="gramps://Place/handle/3WTJQCB9F2MX9W98VP">
-        <range start="570" end="585"/>
-      </style>
-      <style name="link" value="gramps://Media/handle/Y3ARGQWE088EQRTTDH">
-        <range start="1002" end="1017"/>
+        <range start="715" end="730"/>
       </style>
       <style name="link" value="relative://relative.archive.tgz">
-        <range start="724" end="747"/>
+        <range start="869" end="892"/>
+      </style>
+      <style name="link" value="gramps://Source/handle/VUBKMQTA2XZG1V6QP8">
+        <range start="628" end="644"/>
+      </style>
+      <style name="link" value="gramps://Media/handle/238CGQ939HG18SS5MG">
+        <range start="665" end="680"/>
+      </style>
+      <style name="link" value="gramps://Family/handle/48TJQCGNNIR5SJRCAK">
+        <range start="558" end="574"/>
+      </style>
+      <style name="link" value="gramps://Media/handle/238CGQ939HG18SS5MG">
+        <range start="1097" end="1112"/>
+      </style>
+      <style name="link" value="relative://relative.archive.zip">
+        <range start="808" end="831"/>
+      </style>
+      <style name="link" value="gramps://Person/handle/GNUJQCL9MD64AM56OH">
+        <range start="500" end="516"/>
+      </style>
+      <style name="link" value="http://blog.codinghorror.com/">
+        <range start="766" end="784"/>
+      </style>
+      <style name="link" value="gramps://Media/handle/Y3ARGQWE088EQRTTDH">
+        <range start="1147" end="1162"/>
       </style>
     </note>
   </notes>
